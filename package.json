@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "coverage": "jest --coverage",
-    "lint": "eslint .",
+    "lint": "eslint ./src",
     "build": "webpack --mode production"
   },
   "browser": {
@@ -25,7 +25,7 @@
     ]
   },
   "keywords": [],
-  "author": "",
+  "author": "KristineGNCH",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.23.4",
@@ -44,5 +44,8 @@
     "webpack": "^5.89.0",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "husky": "^8.0.3"
   }
 }
