@@ -14,9 +14,8 @@ test('checking health color when 15 < healthPC < 50', () => {
     expect(result).toBe(expected);
 });
 
-
 test('checking health color when  healthPC < 15', () => {
-    const result = 'Охотник critical'; 
+    const result = 'Охотник critical';
     const expected = healthColor({ name: 'Охотник', health: 10 });
 
     expect(result).toBe(expected);
